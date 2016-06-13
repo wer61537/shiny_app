@@ -5,12 +5,13 @@ if(length(new.packages)) install.packages(new.packages)
 library(R6)
 library(shiny)
 library(devtools)
-library(choroplethrZip)
+
 library(ggplot2)
 library(mapproj)
 #to proper case text
 library(fitcoach)
 
+#could not install from cran
 if (!"choroplethrZip" %in% installed.packages()[, "Package"]) {
   install_github('arilamstein/choroplethrZip@v1.3.0')
 }

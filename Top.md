@@ -6,4 +6,3 @@ Metropolitan Statistical Areas [Metropolitan Statistical Area (MSA)](https://en.
 
 The ***Maps*** tab shows the distribution of a demographic statistic across the statistical area. The drop down can be sued to chose the demographic that will be presented on the map of the Twin Cities.  The ***Plots*** tab creates scatter plots of the demographics versus other other selected demographics.  The R code (server.R, ui.R and Top.md)for this app can be found on [GitHub](https://github.com/wer61537/shiny_app).
 
-
